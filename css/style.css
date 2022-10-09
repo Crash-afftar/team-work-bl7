@@ -80,14 +80,14 @@ img {
   display: flex;
 }
 
-.hero-content {
+.content {
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.hero-wrap {
+.content-wrap {
   width: 433px;
 }
 
@@ -115,4 +115,32 @@ img {
   border-radius: 5px;
   padding: 19px 25px;
   border: none;
+}
+
+/* About */
+
+.about {
+}
+
+.about-container {
+  display: flex;
+}
+.about-img {
+}
+.about-title {
+  margin-bottom: 23px;
+}
+.about-text {
+  margin-bottom: 35px;
+}
+.about-link {
+  display: inline-block;
+  padding: 19px 25px;
+  font-size: 18px;
+line-height: 1.34;
+
+text-transform: uppercase;
+color: #F7941E;
+border: 1px solid #F7941E;
+border-radius: 5px;
 }
